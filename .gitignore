@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data (raw sources can be re-downloaded; keep processed if you like)
+data/raw/*
+!data/raw/.gitkeep
+
+# Model artifacts (large)
+model/artifacts/*.bin
+model/artifacts/*.tflite
+model/artifacts/*.pt
+model/artifacts/checkpoints/
+
+# Android
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+*.apk
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml

@@ -1,0 +1,22 @@
+=== EDA SUMMARY — dataset.csv ===
+Total rows: 5187
+
+Class distribution:
+  legitimate : 2717 (52.4%)
+  phishing   : 2470 (47.6%)
+
+Input type distribution:
+  sms   : 4345
+  email : 670
+  url   : 172
+
+Source distribution:
+  real      : 3209
+  synthetic : 1978
+
+Average text length (chars):
+  legitimate : 70.2
+  phishing   : 104.8
+
+Top tokens [phishing]: your(800), votre(411), account(375), from(301), call(291), ici:(286), claim(273), dear(212), dernier(209), avertissement:(209)
+Top tokens [legitimate]: your(273), have(261), that(251), will(212), just(161), what(145), &lt;#&gt;(136), with(133), when(132), come(131)
